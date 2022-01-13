@@ -46,14 +46,7 @@ def index():
                 if text == "我的名字":
                     payload["messages"] = [getNameEmojiMessage()]
                 elif text == "出去玩囉":
-                    payload["messages"] = [
-                            {
-                                "type": "sticker",
-                                "packageId": "446",
-                                "stickerId": "1988"
-#                                 "text": getPlayStickerMessage()
-                            }
-                    ]
+                    payload["messages"] = [getPlayStickerMessage()]
                 elif text == "台北101":
                     payload["messages"] = [getTaipei101ImageMessage(),
                                            getTaipei101LocationMessage(),
