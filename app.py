@@ -51,7 +51,7 @@ def index():
                                 "type": "sticker",
                                 "packageId": "446",
                                 "stickerId": "1988"
-                                "text": getPlayStickerMessage()
+#                                 "text": getPlayStickerMessage()
                             }
                     ]
                 elif text == "台北101":
